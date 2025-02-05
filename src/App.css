@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.center ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 5px;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.left {
+    flex: 2;
+    /* border: 1px solid black; */
+}
+
+.center {
+    flex: 4;
+    /* border: 1px solid black; */
+}
+
+.search {
+    flex: 2;
+    /* border: 1px solid black; */
+}
+
+.search input {
+    padding: 10px;
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: -150px;
+}
+
+.right {
+    flex: 4;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.bannerBox {
+    margin: 10px 0px;
+}
+
+.bannerBox img {
+    width: 100%;
+}
+
+.menImages {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.priceTag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
